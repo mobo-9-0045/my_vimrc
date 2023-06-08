@@ -19,8 +19,11 @@ Plugin 'kiddos/malokai.vim'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plugin 'ayu-theme/ayu-vim'
+Plugin 'nanotech/jellybeans.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+colorscheme jellybeans
 
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-b> :NERDTreeToggle<CR>
